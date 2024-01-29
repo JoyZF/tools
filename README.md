@@ -51,7 +51,7 @@ tools base64 -d encode -s "需要加密的数据"
 tools weather
 ```
 
-查询指定城市天气预报（根据IP）
+查询指定城市天气预报
 ```shell
 tools weather 北京
 ```
