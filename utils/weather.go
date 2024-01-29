@@ -47,14 +47,17 @@ func (w *Weather) GetWeather(city string) {
 	table.Title = res.City + "天气"
 	table.BorderStyle = ui.NewStyle(ui.ColorRed)
 	table.Rows = [][]string{
-		[]string{"日期", "天气", "风向", "体感温度"},
+		{"日期", "天气", "风向", "等级", "体感温度"},
 	}
 	for _, v := range res.Weather {
-		table.Rows = append(table.Rows, []string{v.Date, v.Weather, v.Wind, v.Temp})
+		if v.W == "" {
+			v.W = "-"
+		}
+		table.Rows = append(table.Rows, []string{v.Date, v.Weather, v.Wind, v.W, v.Temp})
 	}
 	table.TextStyle = ui.NewStyle(ui.ColorGreen)
 	table.TitleStyle = ui.NewStyle(ui.ColorGreen)
-	table.SetRect(0, 0, 60, 10)
+	table.SetRect(0, 0, 130, 100)
 	ui.Render(table)
 	uiEvents := ui.PollEvents()
 	for {
