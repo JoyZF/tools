@@ -9,6 +9,11 @@ toolkit by cobra.
 - [x] base64加解密
 - [x] 查询天气预报
 
+## How to install
+```shell
+go install github.com/JoyZF/tools
+```
+
 ## How to use
 
 快速打开应用
