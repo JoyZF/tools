@@ -1,6 +1,6 @@
 # tools
 
-toolkit by cobra.
+toolkit by cobra, A collection of common tools,only for mac.
 
 ## feature
 - [x] 快速打开应用
