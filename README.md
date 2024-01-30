@@ -8,6 +8,7 @@ toolkit by cobra.
 - [x] 获取日期
 - [x] base64加解密
 - [x] 查询天气预报
+- [x] 获取当前IP
 
 ## How to install
 ```shell
