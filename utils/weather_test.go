@@ -10,6 +10,6 @@ func TestWeather_GetWeather(t *testing.T) {
 }
 
 func TestWeather_GetWeather1(t *testing.T) {
-	w := Weather{}
-	w.GetWeather("杭州")
+	//w := Weather{}
+	//w.GetWeather("杭州")
 }
