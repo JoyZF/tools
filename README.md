@@ -56,4 +56,9 @@ tools weather
 tools weather 北京
 ```
 
+获取当前IP
+```shell
+tools ip
+```
+
  
