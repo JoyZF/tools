@@ -9,6 +9,9 @@ toolkit by cobra, A collection of common tools,only for mac.
 - [x] base64加解密
 - [x] 查询天气预报
 - [x] 获取当前IP
+- [x] KFC文案
+- [x] 获取今日老黄历（原值返回）
+
 
 ## How to install
 ```shell
@@ -62,4 +65,14 @@ tools weather 北京
 tools ip
 ```
 
+随机获取KFC文案
+```shell
+tools kfc
+```
+
+
+随机今日老黄历
+```shell
+tools luck
+```
  
