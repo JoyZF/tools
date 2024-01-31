@@ -11,6 +11,7 @@ toolkit by cobra, A collection of common tools,only for mac.
 - [x] 获取当前IP
 - [x] KFC文案
 - [x] 获取今日老黄历（原值返回）
+- [x] git push 自动化
 
 
 ## How to install
