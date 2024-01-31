@@ -32,7 +32,7 @@ var gitCmd = &cobra.Command{
 		} else {
 			fmt.Println(string(commitOutput))
 		}
-		if pushOutput, err := exec.Command("git push").Output(); err != nil {
+		if pushOutput, err := exec.Command("git", "push").Output(); err != nil {
 			fmt.Println(err)
 			return
 		} else {
