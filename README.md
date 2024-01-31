@@ -77,4 +77,17 @@ tools kfc
 ```shell
 tools luck
 ```
+
+
+git push 自动化 自定义commit info
+```shell
+tools push "feat: something"
+```
+
+
+git push 自动化 不填写commit info 自动获取修改文件
+```shell
+tools push
+```
+
  
