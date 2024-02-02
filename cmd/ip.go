@@ -2,9 +2,10 @@ package cmd
 
 import (
 	"fmt"
+	"os/exec"
+
 	"github.com/JoyZF/tools/utils"
 	"github.com/spf13/cobra"
-	"os/exec"
 )
 
 var ipCmd = &cobra.Command{

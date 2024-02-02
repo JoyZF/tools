@@ -3,9 +3,10 @@ package cmd
 import (
 	"encoding/base64"
 	"fmt"
+	"os/exec"
+
 	"github.com/JoyZF/tools/utils"
 	"github.com/spf13/cobra"
-	"os/exec"
 )
 
 var base64Cmd = &cobra.Command{

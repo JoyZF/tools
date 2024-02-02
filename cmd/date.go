@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/JoyZF/tools/utils"
-	"github.com/spf13/cobra"
 	"strconv"
 	"time"
+
+	"github.com/JoyZF/tools/utils"
+	"github.com/spf13/cobra"
 )
 
 func init() {

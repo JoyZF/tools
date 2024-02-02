@@ -2,12 +2,13 @@ package utils
 
 import (
 	"encoding/json"
-	ui "github.com/gizak/termui/v3"
-	"github.com/gizak/termui/v3/widgets"
 	"io"
 	"log"
 	"net/http"
 	"strings"
+
+	ui "github.com/gizak/termui/v3"
+	"github.com/gizak/termui/v3/widgets"
 )
 
 type Weather struct{}
